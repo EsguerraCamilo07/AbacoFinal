@@ -49,21 +49,8 @@ public class Abaco {
     }
 
 
-    public void mostrarDivisiones() {
 
-        int numero = this.sumaTotal();
 
-        int unidades = numero % 10;
-        int centenas = numero / 100;
-        int miles = numero / 1000;
-        int millones = numero / 1000000;
-
-        System.out.println("Unidades: " + unidades);
-        System.out.println("Centenas: " + centenas);
-        System.out.println("Miles: " + miles);
-        System.out.println("Millones: " + millones);
-
-    }
     private String ceros(int n) {
 
         String ceros = "";

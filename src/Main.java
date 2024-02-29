@@ -19,7 +19,7 @@ public class Main {
 
         System.out.println("La suma total es: " + sumaTotal);
 
-        abaco.mostrarDivisiones();
+
 
         scanner.close();
 
